@@ -39,4 +39,4 @@ Place where were compiled template text is  in `src/emails/index.nunjucks`
 There are two main SASS files ->
   
 `inline.scss` for styles which will be inlined to their elements
-`embedded.scss` for styles that shouldn't be inlined. These will be inlcluded within a <style> element in the <head>
+`embedded.scss` for styles that should not be inlined. These will be inlcluded within a <style> element in the <head>
