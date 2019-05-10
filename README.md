@@ -25,7 +25,7 @@ Can be previewed in browser at http://localhost:8000
 How to use: <br/>
 <b>Creating templates</b>
 
-<b>HTML</b>
+<b>HTML</b> <br/>
 <b>Nunjucks</b> is used for compiling template files to HTML.
 
 Templates are in `src/templates/..` 
