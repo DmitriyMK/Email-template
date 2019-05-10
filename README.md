@@ -34,6 +34,7 @@ Partials      are in `src/templates/partials/..`
 Main file for compile to .html format         is  in `src/templates/mailchimp.nunjucks`
 Place where were compiled template text is  in `src/emails/index.nunjucks`
 
+
 <b>CSS</b><br/>
 <b>SASS</b> files are stored in the src/sass/ directory. 
 There are two main SASS files ->
