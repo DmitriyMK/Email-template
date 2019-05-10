@@ -28,15 +28,15 @@ How to use: <br/>
 <b>HTML</b>
 <b>Nunjucks</b> is used for compiling template files to HTML.
 
-Templates are in ~src/templates/..~ 
-Partials      are in ~src/templates/partials/..~
+Templates are in `src/templates/..` 
+Partials      are in `src/templates/partials/..`
 
-Main file for compile to .html format         is  in ~src/templates/mailchimp.nunjucks~
-Place where were compiled template text is  in ~src/emails/index.nunjucks~
+Main file for compile to .html format         is  in `src/templates/mailchimp.nunjucks`
+Place where were compiled template text is  in `src/emails/index.nunjucks`
 
 <b>CSS<b>
 <b>SASS<b> files are stored in the src/sass/ directory. 
 There are two main SASS files ->
   
-~inline.scss~ for styles which will be inlined to their elements
-~embedded.scss~ for styles that shouldn't be inlined. These will be inlcluded within a <style> element in the <head>
+`inline.scss` for styles which will be inlined to their elements
+`embedded.scss` for styles that shouldn't be inlined. These will be inlcluded within a <style> element in the <head>
