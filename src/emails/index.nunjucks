@@ -1,0 +1,18 @@
+{% extends "mailchimp.nunjucks" %}
+
+{% block preheader %} 
+Welcome to Siteplus! You now have access to the simplest drag &amp; drop website builder platform.
+{% endblock %}
+
+{% block email__title %} 
+ Welcome to Siteplus
+{% endblock %}
+
+{% block email__proposal %} 
+ We know you've been on the waitlist for Siteplus Preview Release for a while. You now have access to the simplest drag & drop website builder platform.
+{% endblock %}
+
+{% block email__proposal2 %} 
+Customize everything with simple drag & drop. Choose your domain name, then
+click publish. It's that easy! Edit and add more pages as you need anytime
+{% endblock %}

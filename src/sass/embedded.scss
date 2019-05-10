@@ -1,0 +1,23 @@
+@import "https://fonts.googleapis.com/css?family=Lato";
+
+
+@media only screen and (max-width:550px) {
+    .body center {
+        min-width: 0 !important;
+    }
+
+    .th {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+
+    .container {
+        width: 95% !important;
+    }
+}
+
+@media only screen and (max-width:534px) {
+    .btn {
+        width: 100% !important;
+    }
+}

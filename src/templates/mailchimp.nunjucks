@@ -1,0 +1,91 @@
+{% include "partials/header.nunjucks" %}
+<table align="center" class="body">
+  <tr>
+    <td align="center">
+      {# START EMAIL #}
+
+      {# START PREHEADER #}
+      {% include "partials/spacerStart.nunjucks" %}
+      <td class="preheader">
+        {% block preheader %}{% endblock %}
+      </td>
+      {% include "partials/spacerEnd.nunjucks" %}
+      {# END PREHEADER #}
+
+
+      {# START SPACER #}
+      {% include "partials/spacerStart.nunjucks" %}
+      <td class="h36"> &nbsp; </td>
+      {% include "partials/spacerEnd.nunjucks" %}
+      {# START SPACER #}
+
+
+      {# START WRAPPER FOR EMAIL PREHEADER #}
+      <center class="container-wrapper">
+        <table align="center" class="container">
+          <tbody>
+            <tr class="pt16">
+              <th class="th">
+
+                
+
+
+
+
+
+              {# button #}{# <center style="min-width:486px;width:100%"> #}<!--[if mso]>
+               <v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://siteplus.com/login" style="height:50px;v-text-anchor:middle;width:280px;" stroke="f" fillcolor="#ff3377"><w:anchorlock/>
+               <center style="display:block;color: #fff;font-family:'Gotham SSm A','Gotham SSm B','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;font-weight:400;text-transform:uppercase;">Get started</center></v:rect><![endif]-->{# <a href="http://siteplus.com/login" class="btn" align="center">
+               Get started</a>
+                </center> #}
+                
+                </th>
+            </tr>
+          </tbody>
+        </table>
+
+        {% raw %}
+          {% if footerAddressLineOne %}{% endraw %}
+          <p align="center" class="footer-text text">
+            {% raw %}
+              {{ footerAddressLineOne }}
+            {% endraw %}
+          </p>
+
+          {% raw %}{% endif %}
+        {% endraw %}
+
+        <p align="center" class="footer-text text">
+          {% raw %}
+            {{ notificationCopyright | raw }}
+          {% endraw %}
+        </p>
+
+        {% include "partials/spacerStart.nunjucks" %}
+        <td class="h18"> &nbsp; </td>
+        {% include "partials/spacerEnd.nunjucks" %}
+
+        {% raw %}
+          {% if footerLogo %}{% endraw %}
+          <img class="footer-logo" src="{{ footerLogo }}" alt="" align="center">
+
+          {% raw %}
+          {% else %}
+          {% endraw %}
+
+          <img class="footer-logo" src="https://static.siteplus.com/letters/logo_footer.png?{{ timestamp }}" alt="" align="center">
+          {% raw %}{% endif %}
+        {% endraw %}
+
+        {% include "partials/spacerStart.nunjucks" %}
+        <td class="h16"> &nbsp; </td>
+        {% include "partials/spacerEnd.nunjucks" %}
+
+      </center>
+      {# END WRAPPER FOR EMAIL PREHEADER #}
+
+      {# END EMAIL #}
+    </td>
+  </tr>
+</table>
+{% include "partials/footer.nunjucks" %}
