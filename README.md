@@ -23,7 +23,7 @@ Can be previewed in browser at http://localhost:8000
 
 
 How to use:
-*Creating templates*
+<b>Creating templates*</b>
 
 *HTML*
 *Nunjucks* is used for compiling template files to HTML.
