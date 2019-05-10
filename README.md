@@ -10,11 +10,11 @@ Creates a zip of the build directory for upload (optional)
 
 Getting Started
 - Install packages
-npm install
+*npm install*
 - Start build
-npm start
+*npm start*
 - Start Zipping.
-npm run zip
+*npm run zip*
 
 
 The compiled and inlined output email will be in the build/ directory. 
