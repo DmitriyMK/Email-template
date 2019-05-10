@@ -22,10 +22,10 @@ Can be previewed in browser at http://localhost:8000
 
 
 
-How to use:
+How to use: <br/>
 <b>Creating templates*</b>
 
-*HTML*
+<b>HTML</b>
 *Nunjucks* is used for compiling template files to HTML.
 
 Templates are in _src/templates/.._ 
