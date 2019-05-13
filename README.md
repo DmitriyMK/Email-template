@@ -31,7 +31,7 @@ How to use: <br/>
 Templates are in `src/templates/..` 
 Partials      are in `src/templates/partials/..`
 
-Main file for compile to .html format         is  in `src/templates/mailchimp.nunjucks`
+Main file for compile to .html format         is  in `src/templates/mailchimp.nunjucks` <br>
 Place where were compiled template text is  in `src/emails/index.nunjucks`
 
 
