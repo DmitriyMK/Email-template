@@ -1,4 +1,4 @@
-<h2>Emails Template</h2>
+#Emails Template
 
 This is the starter project for emails. <br>
 It has a Gulp-powered build system with these features:
@@ -60,4 +60,3 @@ There are two main SASS files ->
 <code>inline.scss</code> for styles which will be inlined to their elements <br>
 <code>embedded.scss</code> for styles that shouldn't be inlined. These will be inlcluded within a style element in the head <br>
 <code>reset.scss</code> for reset default rules for browsers and email-clients;
-
