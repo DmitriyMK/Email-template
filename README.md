@@ -1,4 +1,4 @@
-#Emails Template
+<h1>Emails Template<h1>
 
 This is the starter project for emails. <br>
 It has a Gulp-powered build system with these features:
